@@ -1,15 +1,15 @@
 import React from 'react'
 import "./ButtonSection.css"
 
-const ButtonSection = () => {
+const ButtonSection = ({socialLinks}) => {
   return (
     <div>
         <div className="botones">
-          <button>GitHub</button>
-          <button>Frontend Mentor</button>
-          <button>LinkedIn</button>
-          <button>Twitter</button>
-          <button>Instagram</button>
+          {
+            socialLinks.map(
+              socialLink => <button key={socialLink.name}>{socialLink.name}</button>
+            )
+          }  
         </div>
     </div>
   )

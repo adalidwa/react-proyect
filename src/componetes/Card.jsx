@@ -4,12 +4,12 @@ import ButtonSection from './ButtonSection'
 import "./Card.css"
 
 const card = (props) => {
-  const user = props.user 
-  console.log(user)
+  const user = props.user;
+  const socialLinks=user["social-links"];
   return (
     <div className="cuadro">
-      {/*<UserDatails user={user}/>*/}
-      <ButtonSection/>
+      {<UserDatails user={user}/>}
+      <ButtonSection socialLinks={socialLinks}/>
     </div>
   )
 }

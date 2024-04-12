@@ -1,9 +1,6 @@
 import Card from './componetes/Card'
 import './App.css'
 import { useEffect, useState } from 'react';
-import UserDatails from './componetes/UserDatails';
-
-
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -14,7 +11,6 @@ function App() {
       })
       .then((data) => {
         setUsers(data)
-        console.log(data)
       });
   }, []);
 
@@ -28,5 +24,5 @@ function App() {
     </>
   );
 }
-
+ 
 export default App

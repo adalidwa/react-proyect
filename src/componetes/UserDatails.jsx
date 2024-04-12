@@ -1,14 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./UserDatails.css";
-import avatarJessica from "../assets/avatar-jessica.jpeg";
 
-const UserDatails = (props) => {
+
+const UserDatails = ({user}) => {
   
-  //Der aqui empieza
-  const [user, setUser] = useState({}) //valor inicial
-   //esto es cuando cambie de estado
-  setUser(props.user)
-;
   return (
     <div>
       <div className="Imagen">
