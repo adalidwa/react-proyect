@@ -1,18 +1,12 @@
-import React from 'react'
-import "./ButtonSection.css"
+import React from 'react';
+import "./ButtonSection.css";
 
-const ButtonSection = ({socialLinks}) => {
+const ButtonSection = () => {
   return (
     <div>
-        <div className="botones">
-          {
-            socialLinks.map(
-              socialLink => <button key={socialLink.name}>{socialLink.name}</button>
-            )
-          }  
-        </div>
+      {/* Aquí solía estar el código para renderizar los botones */}
     </div>
   )
 }
 
-export default ButtonSection
+export default ButtonSection;

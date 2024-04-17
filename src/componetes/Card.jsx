@@ -4,11 +4,11 @@ import ButtonSection from './ButtonSection'
 import "./Card.css"
 
 const card = (props) => {
-  const user = props.user;
-  const socialLinks=user["social-links"];
+  const character = props.character;
+  const socialLinks=character["social-links"];
   return (
     <div className="cuadro">
-      {<UserDatails user={user}/>}
+      {<UserDatails character={character}/>}
       <ButtonSection socialLinks={socialLinks}/>
     </div>
   )
