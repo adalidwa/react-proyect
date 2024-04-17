@@ -34,8 +34,8 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <div className="characters">
+    <div >
+      <div >
         {characters.map((character) => (
           <Card key={character.id} character={character} />
         ))}

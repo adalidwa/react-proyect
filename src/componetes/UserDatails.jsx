@@ -11,6 +11,7 @@ const UserDatails = ({ character }) => {
         <h2>{character.name}</h2>
         <h4>{character.status}</h4>
         <p>{character.species}</p>
+        <p>{character.gender}</p>
       </div>
     </div>
   );
