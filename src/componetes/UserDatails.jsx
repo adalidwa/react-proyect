@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import "./UserDatails.css";
 
 const UserDatails = ({ character }) => {
@@ -18,3 +18,4 @@ const UserDatails = ({ character }) => {
 };
 
 export default UserDatails;
+ */

@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import UserDatails from './UserDatails'
 import ButtonSection from './ButtonSection'
 import "./Card.css"
@@ -14,4 +14,4 @@ const card = (props) => {
   )
 }
 
-export default card
+export default card */

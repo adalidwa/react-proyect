@@ -1,12 +1,12 @@
-/* 
+
 .cuadro{
     background-color: var(--DarkGrey);
     padding: 20px 0px 20px 0px;
     border-radius: 5%;
-    margin:50px auto;
+    margin:150px auto;
     flex-direction: column;
     display: flex;
     align-items: center;
     max-width: 300px; 
 }
- */
+
