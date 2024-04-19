@@ -6,7 +6,7 @@
     align-items: center; 
 }
 button{
-    margin: 5px; 
+    margin: 50px; 
     width: 250px;
     background-color: var(--Grey);
     padding: 10px;
