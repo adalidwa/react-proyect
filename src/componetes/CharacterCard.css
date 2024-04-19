@@ -1,6 +1,6 @@
 .cuadro{
     background-color: var(--DarkGrey);
-    padding: 5px 150px 100px 150px;
+    padding: 5px 150px 50px 150px;
     margin:150px auto;
     flex-direction: column;
     display: flex;

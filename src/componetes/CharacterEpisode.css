@@ -1,6 +1,24 @@
-.Episodios{
+.Episodio {
+    display: flex;
+    flex-direction: column; /* Alinear elementos en columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+  }
+  
+  .Episodio h2 {
+    margin-bottom: 10px; /* Agregar un margen inferior para separar el título del contenido */
+  }
+  
+  .Episodios {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     border: 30px;
-    color: aqua;
-    background-color: aqua;
-
-}
+    
+  }
+  
+  /* Estilos para cada episodio */
+  .Episodios > div {
+    flex: 0 0 auto;
+    margin-right: 20px;  
+  }
+  
