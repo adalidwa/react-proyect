@@ -1,12 +1,9 @@
-
 .cuadro{
     background-color: var(--DarkGrey);
-    padding: 20px 0px 20px 0px;
-    border-radius: 5%;
+    padding: 5px 150px 100px 150px;
     margin:150px auto;
     flex-direction: column;
     display: flex;
     align-items: center;
     max-width: 300px; 
 }
-
