@@ -9,6 +9,7 @@ const card = (props) => {
   const socialLinks=character["social-links"];
   return (
     <div className="cuadro">
+      
       {<CharacterDatails character={character}/>}
       {<CharacterEpisode/>}
       <CharacterButton socialLinks={socialLinks}/>

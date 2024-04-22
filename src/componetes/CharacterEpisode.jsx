@@ -5,8 +5,8 @@ function CharacterEpisode({ character }) {
   const [episodes, setEpisodes] = useState([]);
 
   useEffect(() => {
-    fetch("https://rickandmortyapi.com/api/episode")
-      .then((res) => res.json())
+    fetch("https://rickandmortyapi.com/api/episode/").then((res) => 
+    res.json())
       .then((data) => {
         setEpisodes(data.results.slice(0, 5)); // Limitando a los primeros 5 episodios
       });

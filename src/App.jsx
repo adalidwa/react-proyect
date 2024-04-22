@@ -1,13 +1,11 @@
 
 import './App.css';
-import RickandMortyApp from './RickandMortyApp';
-
-
-
+import Navegacion from "./router/Navegacion"
+import React from 'react';
 function App() {
 
   return (
-    <RickandMortyApp/>
+    <Navegacion/>
   );
 }
 

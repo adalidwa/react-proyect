@@ -1,4 +1,3 @@
-/* 
 
 
 .Imagen {
@@ -14,7 +13,7 @@
     object-fit: cover;
 }
 .titulo{
-    /* background-color: blue;
+    /* background-color: blue;*/
     text-align: center;
 }
 h4{
@@ -29,4 +28,4 @@ p{
     color: darkgray;
     font-family: 'Inter','Arial';
     font-size: 13px;
-} */
+} 
