@@ -1,11 +1,13 @@
 
 .cuadro{
     background-color: var(--DarkGrey);
-    padding: 20px 0px 20px 0px;
+    padding: 20px;
     border-radius: 5%;
-    margin:50px auto;
-    flex-direction: column;
+    width: 350px;
+    margin:30px;
+    /* flex-direction: column;
     display: flex;
-    align-items: center;
-    max-width: 300px; 
+    align-items: center; */
+    display: inline-block; 
 }
+

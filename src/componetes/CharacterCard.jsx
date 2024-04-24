@@ -1,20 +1,20 @@
-import React from 'react'
-import CharacterDatails from './CharacterDetails'
-import CharacterButton from './CharacterButton'
-import CharacterEpisode from './CharacterEpisode' 
-import "./CharacterCard.css"
+import React from 'react';
+import CharacterDatails from './CharacterDetails';
+import CharacterButton from './CharacterButton';
+import CharacterEpisode from './CharacterEpisode';
+import "./CharacterCard.css";
 
-const card = (props) => {
+const Card = (props) => {
   const character = props.character;
-  const socialLinks=character["social-links"];
+  const socialLinks = character["social-links"];
+
   return (
-    <div className="cuadro">
-      
-      {<CharacterDatails character={character}/>}
-      {<CharacterEpisode/>}
-      <CharacterButton socialLinks={socialLinks}/>
+    <div className="cuadro_character">
+      <CharacterDatails character={character} />
+      <CharacterEpisode characterId={character.id} />
+      <CharacterButton socialLinks={socialLinks} />
     </div>
-  )
+  );
 }
 
-export default card 
+export default Card;

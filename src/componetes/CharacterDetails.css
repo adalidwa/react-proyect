@@ -1,8 +1,8 @@
-.titulo{
+.titulo_character{
     /* background-color: blue; */
     text-align: center;
 }
-.Imagen {
+.Imagen_character {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
     margin: 200px;
 
   }
-.Imagen img{
+.Imagen_character img{
     width: 600px;
     height: 500px;
 }

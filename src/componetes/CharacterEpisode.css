@@ -1,14 +1,14 @@
-.Episodio {
+.Episodio_character {
     display: flex;
     flex-direction: column; /* Alinear elementos en columna */
     align-items: center; /* Centrar elementos horizontalmente */
   }
   
-  .Episodio h2 {
+  .Episodio_character h2 {
     margin-bottom: 10px; /* Agregar un margen inferior para separar el título del contenido */
   }
   
-  .Episodios {
+  .Episodios_character {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -17,7 +17,7 @@
   }
   
   /* Estilos para cada episodio */
-  .Episodios > div {
+  .Episodios_character > div {
     flex: 0 0 auto;
     margin-right: 20px;  
   }
