@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  /* base: "https://adalidwa.github.io/react-proyect/", */
+
   plugins: [react()],
-  base: "https://adalidwa.github.io/social-links-profile/",
 });
